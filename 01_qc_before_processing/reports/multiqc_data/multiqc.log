@@ -1,0 +1,66 @@
+[2025-12-25 17:45:50,317] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/qasim/miniconda3/envs/02_multiqc/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc_config.yaml
+[2025-12-25 17:45:50,317] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/qasim/.multiqc_config.yaml
+[2025-12-25 17:45:50,317] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2025-12-25 17:45:50,317] multiqc                                            [DEBUG  ]  Command used: /home/qasim/miniconda3/envs/02_multiqc/bin/multiqc -p -o reports /home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports
+[2025-12-25 17:45:50,318] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2025-12-25 17:45:50,318] multiqc                                            [INFO   ]  This is MultiQC v1.0.dev0
+[2025-12-25 17:45:50,318] multiqc                                            [DEBUG  ]  Command     : /home/qasim/miniconda3/envs/02_multiqc/bin/multiqc -p -o reports /home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports
+[2025-12-25 17:45:50,318] multiqc                                            [DEBUG  ]  Working dir : /home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing
+[2025-12-25 17:45:50,318] multiqc                                            [INFO   ]  Template    : default
+[2025-12-25 17:45:50,318] multiqc                                            [INFO   ]  Searching '/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports'
+[2025-12-25 17:45:50,318] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, peddy, methylQA, qualimap, preseq, quast, rseqc, busco, goleft_indexcov, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, bismark, hicup, salmon, kallisto, slamdunk, star, tophat, bowtie2, bowtie1, cutadapt, trimmomatic, skewer, fastq_screen, fastqc, clusterflow
+[2025-12-25 17:45:50,318] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmprPSg60
+[2025-12-25 17:45:50,716] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2025-12-25 17:45:50,720] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,723] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,725] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2025-12-25 17:45:50,728] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,738] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,740] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,766] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,770] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,773] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,781] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,789] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,796] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,804] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,806] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,864] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,868] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,876] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,897] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,905] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,910] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,913] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,916] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,923] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,954] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2025-12-25 17:45:50,958] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,961] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,968] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,976] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,983] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,991] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:50,999] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:51,002] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:51,015] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'codanics_1_fastqc.zip' as already parsed 'codanics_1'
+[2025-12-25 17:45:51,015] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'codanics_2_fastqc.zip' as already parsed 'codanics_2'
+[2025-12-25 17:45:51,015] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 2 reports
+[2025-12-25 17:45:53,803] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/home/qasim/03_wgs_assembly/short_reads_only_assembly/01_qc_before_processing/reports',)
+[2025-12-25 17:45:53,804] multiqc                                            [INFO   ]  Report      : reports/multiqc_report.html
+[2025-12-25 17:45:53,804] multiqc                                            [INFO   ]  Data        : reports/multiqc_data
+[2025-12-25 17:45:53,804] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Counts.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,804] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/mqc_fastqc_sequence_duplication_levels_plot_1.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,804] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Percentages.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,804] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/mqc_fastqc_per_base_sequence_quality_plot_1.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,805] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/multiqc_general_stats.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,805] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/multiqc_fastqc.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,805] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/mqc_fastqc_per_sequence_quality_scores_plot_1.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,805] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/multiqc_sources.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,805] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/mqc_fastqc_sequence_length_distribution_plot_1.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,805] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprPSg60/multiqc_data/mqc_fastqc_per_base_n_content_plot_1.txt' to 'reports/multiqc_data'
+[2025-12-25 17:45:53,805] multiqc                                            [INFO   ]  Plots       : reports/multiqc_plots
+[2025-12-25 17:45:53,805] multiqc                                            [DEBUG  ]  Moving plots directory from '/tmp/tmprPSg60/multiqc_plots/png' to 'reports/multiqc_plots'
+[2025-12-25 17:45:53,805] multiqc                                            [DEBUG  ]  Moving plots directory from '/tmp/tmprPSg60/multiqc_plots/svg' to 'reports/multiqc_plots'
+[2025-12-25 17:45:53,805] multiqc                                            [DEBUG  ]  Moving plots directory from '/tmp/tmprPSg60/multiqc_plots/pdf' to 'reports/multiqc_plots'
+[2025-12-25 17:45:53,897] multiqc                                            [INFO   ]  MultiQC complete

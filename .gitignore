@@ -1,0 +1,51 @@
+# Large sequence files (>100MB)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bam.bai
+*.sam
+
+# Raw data directories
+00_raw_reads/
+02_processed_reads/
+03_qc_after_processing/
+
+# Large data files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+
+# Large reference genomes
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+
+# QC output files
+*.html
+*.json
+
+# Conda environments
+.conda/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+00_raw_reads/*.fastq.gz
