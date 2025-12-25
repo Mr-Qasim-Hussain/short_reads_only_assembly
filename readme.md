@@ -44,9 +44,3 @@ git remote add origin https://github.com/Mr-Qasim-Hussain/short_reads_only_assem
 git push -u origin main
 ```
 
-**Important**: If your GitHub repository already has commits from failed pushes, you must delete and recreate it:
-
-1. Go to: https://github.com/Mr-Qasim-Hussain/short_reads_only_assembly/settings
-2. Scroll to "Danger Zone" and click "Delete this repository"
-3. Recreate a new empty repository on GitHub
-4. Run the commands above
