@@ -49,3 +49,6 @@ venv/
 .DS_Store
 Thumbs.db
 00_raw_reads/*.fastq.gz
+
+# Manual override for GitHub language statistics
+01_qc_before_processing/reports/** linguist-documentation
