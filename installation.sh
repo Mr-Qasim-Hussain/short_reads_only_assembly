@@ -45,3 +45,12 @@ git branch -M main
 
 echo "Git repository initialized. Uncomment the git remote and push commands to push to GitHub."
 echo "Make sure you have created the repository on GitHub first."
+
+# install spades for short read assembly
+echo "Setting up conda environment for SPAdes genome assembly..."
+conda env remove -n 03_spades_assembly -y
+conda create -n 03_spades_assembly -y
+conda activate 03_spades_assembly
+conda install -c bioconda spades -y
+# check installation
+spades.py --version

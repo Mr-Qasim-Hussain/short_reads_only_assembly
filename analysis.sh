@@ -12,6 +12,7 @@ mkdir -p "${PROJECT_DIR}/00_raw_reads"
 mkdir -p "${PROJECT_DIR}/01_qc_before_processing"
 mkdir -p "${PROJECT_DIR}/02_processed_reads"
 mkdir -p "${PROJECT_DIR}/03_qc_after_processing"
+mkdir -p "${PROJECT_DIR}/04_short_reads_assembly"
 
 echo "✓ Directories created"
 
@@ -61,3 +62,12 @@ conda activate 02_multiqc
 multiqc -p -o reports_fastqc_processed "${PROJECT_DIR}/03_qc_after_processing/reports_fastqc_processed"
 
 echo "Short reads processing and QC complete!"
+
+# spades for short read assembly
+cd "${PROJECT_DIR}/04_short_reads_assembly"
+conda activate 03_spades_assembly
+spades.py \
+  -1 "${PROJECT_DIR}/02_processed_reads/codanics_1_trimmed.fastq.gz" \
+  -2 "${PROJECT_DIR}/02_processed_reads/codanics_2_trimmed.fastq.gz" \
+  -o . \
+  -t 12 -m 8
