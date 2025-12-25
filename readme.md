@@ -23,4 +23,3 @@ This project organizes short-read sequencing data for genome assembly with quali
 
 - Ensure that all necessary tools and dependencies are installed before running the pipeline.
 - Modify the configuration files as needed to match the specifics of your data and desired analysis parameters.
-- A `.gitignore` file is included in this project to prevent large files and unnecessary data from being tracked by git.
